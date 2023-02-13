@@ -1,0 +1,24 @@
+{
+  "name": "kaboomsweeper",
+  "version": "0.1.0",
+  "description": "A minesweeper game built with Kaboom",
+  "source": "public/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [
+    "minesweeper",
+    "kaboom"
+  ],
+  "author": "rblinde",
+  "license": "MIT",
+  "browserlist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.4"
+  },
+  "dependencies": {
+    "kaboom": "^3000.0.0-beta.2"
+  }
+}
